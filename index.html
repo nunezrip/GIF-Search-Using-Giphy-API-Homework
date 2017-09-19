@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>GIF Search</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main>
+        <h1>Search GIFs</h1>
+        <div class="form-container">
+            <form id="search-form">
+                <input type="text" value="" id='search-term'>
+                <button type="submit">→</button>
+            </form>
+            <div style='text-align:center'>
+                <button id="trending">trending</button>
+                <button id="random">Random</buttom>
+            </div>
+            <div class="dropdown"></div>
+        </div>
+        <div class="results"></div>
+    </main>
+
+    <script
+    src="https://code.jquery.com/jquery-1.12.4.min.js"
+    integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+    crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
